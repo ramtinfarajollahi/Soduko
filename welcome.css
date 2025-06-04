@@ -43,3 +43,20 @@ button:focus {
 button:hover {
   transform: scale(1.05);
 }
+
+.fa-puzzle-piece:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.fa-question:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.fa-gear:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.fa-right-to-bracket:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
