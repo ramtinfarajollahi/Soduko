@@ -29,18 +29,17 @@ button {
   box-shadow: 5px 5px 1px 4px rgba(100, 120, 150, 0.2);
 }
 
-#sound:focus,
-#theme:focus,
-#language:focus {
+#easy:focus,
+#medium:focus,
+#hard:focus {
   box-shadow: 0 0 0 4px rgba(4, 49, 88, 0.15);
 }
-#sound:hover,
-#theme:hover,
-#language:hover {
+#easy:hover,
+#medium:hover,
+#hard:hover {
   transform: scale(1.05);
 }
-
-#setting {
+#difficulty {
   width: 500px;
 }
 
@@ -68,28 +67,28 @@ button {
 .fa-arrow-left {
   color: #fff;
 }
-.fa-gear {
+.fa-bolt {
   color: #fff;
 }
-a {
+#go-back {
   text-decoration: none;
   position: absolute;
   top: 20px;
   left: 70px;
 }
-.fa-globe:hover {
+.fa-smile:hover {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
-.fa-gear:hover {
+.fa-bolt:hover {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
-.fa-volume-up:hover {
+.fa-meh:hover {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
-.fa-palette:hover {
+.fa-frown:hover {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
