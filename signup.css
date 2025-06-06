@@ -12,7 +12,7 @@ body {
 }
 .container {
   width: 300px;
-  height: 600px;
+  height: 800px;
   padding: 0px;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 .form {
-  height: 180px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -106,7 +106,7 @@ button:hover {
 .fa-arrow-left {
   color: #fff;
 }
-a {
+#go-back {
   text-decoration: none;
   position: absolute;
   top: 20px;
