@@ -181,6 +181,10 @@ button:hover {
   background-color: rgba(251, 255, 2, 0.718);
   box-shadow: 0 0 0 1px gray inset;
 }
+.cell-red-yellow {
+  background-color: rgba(183, 112, 6, 0.718);
+  box-shadow: 0 0 0 1px gray inset;
+}
 a {
   text-decoration: none;
 }
