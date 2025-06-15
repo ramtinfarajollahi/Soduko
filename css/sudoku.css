@@ -4,9 +4,24 @@ body {
   height: 100%;
   background-color: #adb4b7;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
+}
+
+.first_container {
+  display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.second_container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: relative;
 }
 
@@ -19,7 +34,45 @@ body {
   gap: 0px;
   border: 1px solid black;
 }
+.time-container {
+  display: flex;
+  flex-direction: row;
+}
+.timer,
+.mistakes {
+  color: #1b4e6d;
+  padding: 30px;
+  font-size: xx-large;
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.key1 {
+  display: flex;
+  flex-direction: row;
+}
 
+.key2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.key3 {
+  display: flex;
+  flex-direction: row;
+}
+.numbers {
+  background: linear-gradient(#1b4e6d, #3596d3);
+  padding: 30px;
+  color: #fff;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+}
 .cell {
   position: relative;
   width: 40;
@@ -95,9 +148,126 @@ body {
 .fa-arrow-left {
   color: #fff;
 }
-a {
+.fa-pause {
+  color: black;
+}
+#go-back {
   text-decoration: none;
-  position: absolute;
-  top: 20px;
-  left: 70px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+button:focus {
+  box-shadow: 0 0 0 4px rgba(4, 49, 88, 0.3);
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+#c0:active,
+#c1:active,
+#c2:active,
+#c9:active,
+#c10:active,
+#c11:active,
+#c18:active,
+#c19:active,
+#c20:active {
+  background-color: #51585b;
+}
+
+#c3:active,
+#c4:active,
+#c5:active,
+#c12:active,
+#c13:active,
+#c14:active,
+#c21:active,
+#c22:active,
+#c23:active {
+  background-color: #51585b;
+}
+
+#c6:active,
+#c7:active,
+#c8:active,
+#c15:active,
+#c16:active,
+#c17:active,
+#c24:active,
+#c25:active,
+#c26:active {
+  background-color: #51585b;
+}
+
+#c27:active,
+#c28:active,
+#c29:active,
+#c36:active,
+#c37:active,
+#c38:active,
+#c45:active,
+#c46:active,
+#c47:active {
+  background-color: #51585b;
+}
+
+#c30:active,
+#c31:active,
+#c32:active,
+#c39:active,
+#c40:active,
+#c41:active,
+#c48:active,
+#c49:active,
+#c50 :active {
+  background-color: #51585b;
+}
+#c33:active,
+#c34:active,
+#c35:active,
+#c42:active,
+#c43:active,
+#c44:active,
+#c51:active,
+#c52:active,
+#c53:active {
+  background-color: #51585b;
+}
+
+#c54:active,
+#c55:active,
+#c56:active,
+#c63:active,
+#c64:active,
+#c65:active,
+#c72:active,
+#c73:active,
+#c74:active {
+  background-color: #51585b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#c57:active,
+#c58:active,
+#c59:active,
+#c66:active,
+#c67:active,
+#c68:active,
+#c75:active,
+#c76:active,
+#c77:active {
+  background-color: #51585b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#c60:active,
+#c61:active,
+#c62:active,
+#c69:active,
+#c70:active,
+#c71:active,
+#c78:active,
+#c79:active,
+#c80:active {
+  background-color: #51585b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
